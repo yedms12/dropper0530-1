@@ -3,9 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/neodgm/neodgm-webfont@1.600/neodgm_code/style.css">
 <style type="text/css">
+ @font-face {
+            font-family: 'NeoDunggeunmo Pro';
+            src: url('path/to/NeoDunggeunmo_Pro.woff2') format('woff2'), /* 폰트 파일 경로 지정 */
+                 url('path/to/NeoDunggeunmo_Pro.woff') format('woff'); /* 다른 폰트 포맷도 함께 지정 */
+            font-weight: normal;
+            font-style: normal;
+        }
 .fade {
     animation: fadein 1s cubic-bezier(0.31, 0, 0.58, 1) forwards;
     position: relative;
